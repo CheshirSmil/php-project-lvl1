@@ -7,5 +7,9 @@
             "email": "graciadan@rambler.ru"
         }
     ],
+    "bin": [
+       "bin/brain-games"
+    ],
+    "license": "proprietary",
     "require": {}
 }
