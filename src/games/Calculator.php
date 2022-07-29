@@ -15,6 +15,8 @@ function calculate($first, $second, $sign)
             return $first * $second;
         case '+':
             return $first + $second;
+        case '-':
+            return $first - $second;
         default:
             throw new \Exception('Unknown operation symbol ' . $sign);
     }
@@ -23,7 +25,7 @@ function calculate($first, $second, $sign)
 function run()
 {
     $gameData = [];
-    $signs = ['+', '*'];
+    $signs = ['+', '*', '-'];
 
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $firstOperand = mt_rand(1, 100);
