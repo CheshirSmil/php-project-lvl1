@@ -11,7 +11,8 @@
        "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "license": "proprietary",
     "require": {
@@ -23,7 +24,8 @@
             "src/Engine.php",
             "src/games/Even.php",
             "src/games/Calculator.php",
-            "src/games/Gcd.php"
+            "src/games/Gcd.php",
+            "src/games/Progression.php"
         ]
     },
     "require-dev": {
