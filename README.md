@@ -12,13 +12,6 @@ php-project-lvl1
     brain-gcd  - в игре надо найти наибольший общий делитель двух чисел и дать верный ответ.
     brain-progression - в игре надо найти пропущеный элемент арифметической прогрессии.
     brain-prime - в игре надо ответить простое показанное число или нет.
-
-Для запуска игры достаточно ввести название игры в командной строке.
-
-Example game Brain-even
-
-[![asciicast](https://asciinema.org/a/XG8VgcaB6XhGCyZcdSyWr8zqR.svg)](https://asciinema.org/a/XG8VgcaB6XhGCyZcdSyWr8zqR)
-
 Example game Brain-calc
 
 [![asciicast](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX.svg)](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX)
