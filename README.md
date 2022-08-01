@@ -17,21 +17,21 @@ php-project-lvl1
 
 Example game Brain-even
 
-![asciicast](https://asciinema.org/a/XG8VgcaB6XhGCyZcdSyWr8zqR.svg)](https://asciinema.org/a/XG8VgcaB6XhGCyZcdSyWr8zqR)
+[![asciicast](https://asciinema.org/a/XG8VgcaB6XhGCyZcdSyWr8zqR.svg)](https://asciinema.org/a/XG8VgcaB6XhGCyZcdSyWr8zqR)
 
 Example game Brain-calc
 
-![asciicast](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX.svg)](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX)
+[![asciicast](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX.svg)](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX)
 
 Example game Brain-gcd
 
-![asciicast](https://asciinema.org/a/61pyCJLt8yLTtK9wRH6iDj8Ed.svg)](https://asciinema.org/a/61pyCJLt8yLTtK9wRH6iDj8Ed)
+[![asciicast](https://asciinema.org/a/61pyCJLt8yLTtK9wRH6iDj8Ed.svg)](https://asciinema.org/a/61pyCJLt8yLTtK9wRH6iDj8Ed)
 
 Example game Brain-progression
 
-![asciicast](https://asciinema.org/a/FKOHtN6fmSIxHGT0osgL4C9sw.svg)](https://asciinema.org/a/FKOHtN6fmSIxHGT0osgL4C9sw)
+[![asciicast](https://asciinema.org/a/FKOHtN6fmSIxHGT0osgL4C9sw.svg)](https://asciinema.org/a/FKOHtN6fmSIxHGT0osgL4C9sw)
 
 Example game Brain-prime
 
-![asciicast](https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci.svg)](https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci)
+[![asciicast](https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci.svg)](https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci)
 https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci
