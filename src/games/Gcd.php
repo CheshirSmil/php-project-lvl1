@@ -8,7 +8,7 @@ use const Brain\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Find the greatest common divisor of given numbers.';
 
-function getGcd($a, $b)
+function getGcd(int $a, int $b)
 {
     while ($a != 0 && $b != 0) {
         if ($a > $b) {

@@ -8,7 +8,7 @@ use const Brain\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-function isPrime($num)
+function isPrime(int $num)
 {
     if ($num <= 1) {
         return false;
