@@ -8,7 +8,7 @@ use const Brain\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'What number is missing in the progression?';
 
-function myProgression($progressionLength, $first, $step)
+function myProgression(int $progressionLength, int $first, int $step)
 {
     $progression = [];
     for ($i = 1; $i <= $progressionLength; $i++) {
