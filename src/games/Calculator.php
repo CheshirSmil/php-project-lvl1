@@ -8,7 +8,7 @@ use const Brain\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'What is the result of the expression?';
 
-function calculate($first, $second, $sign)
+function calculate(int $first, int $second, string $sign)
 {
     switch ($sign) {
         case '*':
