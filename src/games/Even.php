@@ -10,7 +10,7 @@ const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 function isEven(int $value)
 {
-    return $value % 2 == 0 ? true : false;
+    return $value % 2 == 0;
 }
 
 function run()
@@ -20,7 +20,6 @@ function run()
         $randomNum = mt_rand(1, 100);
         $currentQuestion = (string) $randomNum;
         $currentAnswer = isEven($randomNum) ? 'yes' : 'no';
-        //$currentQuestion = (string) $randomNum;
         $gameData[] = [$currentQuestion, $currentAnswer];
     }
     runGame(DESCRIPTION, $gameData);
