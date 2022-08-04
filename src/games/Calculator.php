@@ -1,10 +1,10 @@
 <?php
 
-namespace Brain\Games\Calculator;
+namespace BrainGames\Games\Calculator;
 
-use function Brain\Engine\runGame;
+use function BrainGames\Engine\runGame;
 
-use const Brain\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'What is the result of the expression?';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Brain\Engine;
+namespace BrainGames\Engine;
 
 use function cli\line;
 use function cli\prompt;
@@ -13,14 +13,18 @@ function runGame(string $condition, array $gameData)
     line($condition);
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
+
     foreach ($gameData as [$question, $correctAnswer]) {
         line("Question: $question");
         $answer = prompt("Your answer");
+
         if ($answer !== $correctAnswer) {
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
             line("Let's try again, {$name}!");
+
             return;
         }
+
         line("Correct!");
     }
 

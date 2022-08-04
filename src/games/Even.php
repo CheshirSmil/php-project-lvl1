@@ -1,10 +1,10 @@
 <?php
 
-namespace Brain\Games\Even;
+namespace BrainGames\Games\Even;
 
-use function Brain\Engine\runGame;
+use function BrainGames\Engine\runGame;
 
-use const Brain\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no"';
 

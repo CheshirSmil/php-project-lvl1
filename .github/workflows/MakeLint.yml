@@ -5,7 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "test"
       - uses: actions/checkout@v2
         # Step's name
       - name: Setup PHP
