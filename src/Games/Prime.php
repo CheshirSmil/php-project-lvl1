@@ -29,9 +29,9 @@ function run()
 
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $randomNum = mt_rand(1, 100);
-        $currentAnswer = isPrime($randomNum) ? 'yes' : 'no';
-        $currentQuestion = (string) $randomNum;
-        $gameData[] = [$currentQuestion, $currentAnswer];
+        $answer = isPrime($randomNum) ? 'yes' : 'no';
+        $question = (string) $randomNum;
+        $gameData[] = [$question, $answer];
     }
     runGame(DESCRIPTION, $gameData);
 }

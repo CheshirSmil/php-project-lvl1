@@ -33,10 +33,10 @@ function run()
         $signNum = array_rand($signs);
         $sign = $signs[$signNum];
 
-        $currentAnswer = (string) calculate($firstOperand, $secondOperand, $sign);
-        $currentQuestion = "{$firstOperand} {$sign} {$secondOperand}";
+        $answer = (string) calculate($firstOperand, $secondOperand, $sign);
+        $question = "{$firstOperand} {$sign} {$secondOperand}";
 
-        $gameData[] = [$currentQuestion, $currentAnswer];
+        $gameData[] = [$question, $answer];
     }
 
     runGame(DESCRIPTION, $gameData);
