@@ -23,11 +23,11 @@
         "files": [
             "src/Cli.php",
             "src/Engine.php",
-            "src/games/Even.php",
-            "src/games/Calculator.php",
-            "src/games/Gcd.php",
-            "src/games/Progression.php",
-            "src/games/Prime.php"
+          "src/Games/Even.php",
+          "src/Games/Calculator.php",
+          "src/Games/Gcd.php",
+          "src/Games/Progression.php",
+          "src/Games/Prime.php"
         ]
     },
     "require-dev": {
