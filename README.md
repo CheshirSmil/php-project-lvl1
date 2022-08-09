@@ -22,20 +22,20 @@ php-project-lvl1
 
 Example game Brain-even
 
-[![asciicast](https://asciinema.org/a/m9UyR2ZEm3TilqNdz7BpUa0GD.svg)](https://asciinema.org/a/m9UyR2ZEm3TilqNdz7BpUa0GD)
+[![asciicast](https://asciinema.org/a/513764.svg)](https://asciinema.org/a/513764)
 
 Example game Brain-calc
 
-[![asciicast](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX.svg)](https://asciinema.org/a/uuysjA89Zg7E0DMkuBX0sRClX)
+[![asciicast](https://asciinema.org/a/513767.svg)](https://asciinema.org/a/513767)
 
 Example game Brain-gcd
 
-[![asciicast](https://asciinema.org/a/61pyCJLt8yLTtK9wRH6iDj8Ed.svg)](https://asciinema.org/a/61pyCJLt8yLTtK9wRH6iDj8Ed)
+[![asciicast](https://asciinema.org/a/513769.svg)](https://asciinema.org/a/513769)
 
 Example game Brain-progression
 
-[![asciicast](https://asciinema.org/a/FKOHtN6fmSIxHGT0osgL4C9sw.svg)](https://asciinema.org/a/FKOHtN6fmSIxHGT0osgL4C9sw)
+[![asciicast](https://asciinema.org/a/513770.svg)](https://asciinema.org/a/513770)
 
 Example game Brain-prime
 
-[![asciicast](https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci.svg)](https://asciinema.org/a/KwMhh7AorNYJ0flGiYz0ONXci)
+[![asciicast](https://asciinema.org/a/513775.svg)](https://asciinema.org/a/513775)
