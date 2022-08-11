@@ -8,7 +8,7 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'What number is missing in the progression?';
 
-function findHiddenNumber(int $progressionLength, int $first, int $step)
+function makeProgression(int $progressionLength, int $first, int $step)
 {
     $progression = [];
     for ($i = 1; $i <= $progressionLength; $i++) {
@@ -27,7 +27,7 @@ function run()
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $startNum = mt_rand(1, 10);
         $progressionDiff = mt_rand(1, 10);
-        $progression = findHiddenNumber($progressionLength, $startNum, $progressionDiff);
+        $progression = makeProgression($progressionLength, $startNum, $progressionDiff);
         $numHideElement = array_rand($progression);
         $answer = (string) $progression[$numHideElement];
         $progression[$numHideElement] = $missedHideElement;
