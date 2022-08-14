@@ -22,15 +22,15 @@ function run()
 {
     $gameData = [];
     $progressionLength = 10;
-    $missedHideElement = "..";
+    $symbolOfHiddenElement = "..";
 
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $startNum = mt_rand(1, 10);
-        $progressionDiff = mt_rand(1, 10);
-        $progression = makeProgression($progressionLength, $startNum, $progressionDiff);
+        $step = mt_rand(1, 10);
+        $progression = makeProgression($progressionLength, $startNum, $step);
         $numHideElement = array_rand($progression);
         $answer = (string) $progression[$numHideElement];
-        $progression[$numHideElement] = $missedHideElement;
+        $progression[$numHideElement] = $symbolOfHiddenElement;
 
         $question = implode(" ", $progression);
 
